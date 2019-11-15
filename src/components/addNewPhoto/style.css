@@ -1,0 +1,9 @@
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.bodyItem{
+    margin: 5px;
+    
+}

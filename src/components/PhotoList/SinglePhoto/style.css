@@ -1,0 +1,42 @@
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 1rem;
+    height: 300px;
+    width: 300px;
+    border: 1px solid lightgreen;
+    border-radius: 40px;
+    justify-content: center;
+    align-items:center;
+
+}
+.photo{
+    
+    height: 200px;
+    width: 200px;
+    margin-bottom: 1rem;
+}
+.link-style{
+    display: flex;
+    text-decoration: none;
+    color:green;
+   
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width: 100%;
+}
+.link-style:hover {
+    text-decoration: none;
+    color: black;
+}
+.photo-container:hover{
+    transition: all 0.3s ease 0s;
+    background: rgba(76, 175, 80, 0.1)
+}
